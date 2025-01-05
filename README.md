@@ -7,6 +7,9 @@ To get started, simply click on the badge below:
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/icub-tech-iit/test-packages-sandbox)
 
+> [!important]
+> You need to enable the [Codespaces](https://docs.github.com/en/codespaces) feature on your account to access the sandbox.
+
 Instead, if you aim to test against different **`distros/releases`**, do:
 1. 📝 Edit the file [`Dockerfile`](/.devcontainer/Dockerfile) and create a **`new branch`**. In detail, you have to fiddle with these [sections](/.devcontainer/Dockerfile#L7-L11).
 1. 🚀 Launch the corresponding GitHub Codespace from within the new branch. Don't click on the main badge but rather use the green <kbd><> Code</kbd> button up here (switch to the tab `Codespaces`).
