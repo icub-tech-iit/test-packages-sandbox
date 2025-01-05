@@ -1,0 +1,11 @@
+{
+	"name": "CDE for Testing Packages",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"forwardPorts": [6080],
+	"remoteUser": "codespace",
+    "postAttachCommand": {
+        "vnc": "start-vnc-session.sh"
+    }
+}
